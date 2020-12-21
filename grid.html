@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <title>css grid</title>
+    <style>
+        .wraper{
+            display: grid;
+            grid-template-columns: 68% 28%;
+            /* grid-column-gap: 2%;
+            grid-row-gap: 2%; */
+            grid-gap: 2%;
+        }
+        .wraper > div{
+            background: #eee;
+            padding: 1rem;
+        }
+        .wraper > div:nth-child(odd){
+            background: #ddd;
+        }
+    </style>
+</head>
+    <body>
+      <div class="wraper">
+          <div>
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat quisquam reprehenderit obcaecati veniam hic nam ex, exercitationem voluptate fuga recusandae voluptatem. Culpa consequatur cum labore rerum aut inventore dolorem suscipit modi ipsa! Minima excepturi officia corporis totam quae, mollitia laudantium magni eaque officiis placeat magnam maxime a. Perspiciatis praesentium molestiae eos, impedit cum hic consequuntur eaque ullam perferendis mollitia laborum autem ipsa quam modi tenetur est odit provident quos non iusto dolor quas officiis necessitatibus vitae? Velit fugiat repudiandae impedit!</div>
+          <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, ipsum, omnis totam consequatur laboriosam obcaecati qui nemo amet veritatis quaerat, veniam magni aliquid quas vel asperiores reiciendis? Repudiandae, rem perspiciatis!</div>
+          <div>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat quisquam reprehenderit obcaecati veniam hic nam ex, exercitationem voluptate fuga recusandae voluptatem. Culpa consequatur cum labore rerum aut inventore dolorem suscipit modi ipsa! Minima excepturi officia corporis totam quae, mollitia laudantium magni eaque officiis placeat magnam maxime a. Perspiciatis praesentium molestiae eos, impedit cum hic consequuntur eaque ullam perferendis mollitia laborum autem ipsa quam modi tenetur est odit provident quos non iusto dolor quas officiis necessitatibus vitae? Velit fugiat repudiandae impedit!</div>
+       <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, ipsum, omnis totam consequatur laboriosam obcaecati qui nemo amet veritatis quaerat, veniam magni aliquid quas vel asperiores reiciendis? Repudiandae, rem perspiciatis!</div>
+      </div>
+    </body>
+</html>

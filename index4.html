@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+    <title>log</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin:0;
+            padding: 0;
+        }
+        .wraper{
+            display: grid;
+            grid-auto-rows: minmax(263px,auto);
+        }
+        /* .wraper > div{
+            background: #eee;
+            padding: 1rem;
+        }
+        .wraper > div:nth-child(odd){
+            background: #ddd;
+        } */
+        .box1{
+            background-color: #89CAC6;
+            background-size: 60px 60px;
+            background-image: radial-gradient(
+                #6caac2 6px,
+                transparent 6px
+            );
+        }
+        .box2{
+            background-color: #6caac2;
+            background-size: 60px 60px;
+            background-image: radial-gradient(
+               #6D84C5 6px,
+                transparent 6px
+            );
+        }
+        .box3{
+            background-color: #6D84C5;
+            background-size: 60px 60px;
+            background-image: radial-gradient(
+                #89CAC6 6px,
+                transparent 6px
+            );
+        }
+        .box{
+            height: 600px;
+            width: 500px;
+            position: absolute;
+            margin:auto;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+    </style>
+</head>
+    <body>
+      <div class="wraper">
+          <div class="box1"></div>
+          <div class="box2"></div>
+          <div class="box3"></div>
+          
+      </div>
+      <div class="box4"></div>
+    </body>
+</html>
